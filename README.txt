@@ -1,3 +1,14 @@
+
+
+
+cegxQC - A spike in conversion and and quality control application for TrueMethyl
+---------------------------------------------------------------------------------
+
+cegxQC is designed to provide an assessment of the conversion of the spike in controls provided with the CEGX TrueMethyl kits as well as provide more general quality control.
+
+cegxQC is an extended version of FastQC
+
+
 FastQC - A Quality Control application for FastQ files
 ------------------------------------------------------
 
