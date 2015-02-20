@@ -1,22 +1,21 @@
 # cegxQC - A spike in conversion and and quality control application for TrueMethyl #
 
 
-cegxQC is designed to provide an assessment of the conversion of the spike in controls provided with the CEGX TrueMethyl kits as well as provide more general quality control.
+cegxQC is designed to provide an assessment of the conversion of the spike in controls provided with the CEGX TrueMethyl kits as well as provide more general quality control. cegxQC is an extended version of [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
 
-cegxQC is an extended version of [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
+## User Documentation ##
 
 The cegxQC [user documentation](https://bitbucket.org/cegx-bfx/cegxqc/downloads/cegx-qc-manual.pdf) contains detailed instructions for installation and usage
 
 ## Installation ##
-The [binary distribution](https://bitbucket.org/cegx-bfx/cegxqc/downloads) is available as a zip file (Mac/Windows) or as a tar.gx (Linux)
+
+The recommended way to get cegxQC is to download the [binary distribution](https://bitbucket.org/cegx-bfx/cegxqc/downloads), available as a zip file (Mac/Windows) or as a tar.gx (Linux).
 
 ### Requirements ###
 You will need java installed to run cegxQC available at [www.java.com](http://www.java.com)
 
 ### Mac/Windows ###
-Double-click the zip file
-
-Change into the directory created by unpacking the zip file
+Double-click the zip file and change into the directory created by unpacking the zip file
 
 Mac: Double-click the `cegxqc` file
 
