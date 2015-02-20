@@ -1,7 +1,6 @@
-# cegxQC - A spike in conversion and and quality control application for TrueMethyl #
+# cegxQC - A spike in conversion and and quality control application for [TrueMethyl](http://www.cambridge-epigenetix.com/) #
 
-
-cegxQC is designed to provide an assessment of the conversion of the spike in controls provided with the CEGX TrueMethyl kits as well as provide more general quality control. cegxQC is an extended version of [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
+cegxQC is designed to provide an assessment of the conversion of the spike in controls provided with the [CEGX TrueMethyl](http://www.cambridge-epigenetix.com/) kits as well as provide more general quality control. cegxQC is an extended version of [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
 
 ## User Documentation ##
 
