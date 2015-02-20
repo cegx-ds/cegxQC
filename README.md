@@ -34,4 +34,4 @@ Note: On Macs you will need to update the security settings to allow the install
 
 
 ## Comments / Issues ##
-If you have any comments or issues in relation to cegxQC please use the [issue tracking system](https://bitbucket.org/cegx-bfx/cegxqc/issues) or email [technical@cegx.co.uk](technical@cegx.co.uk)
+If you have any comments or issues in relation to cegxQC please use the [issue tracking system](https://bitbucket.org/cegx-bfx/cegxqc/issues) or email [technical@cegx.co.uk](mailto://technical@cegx.co.uk)
