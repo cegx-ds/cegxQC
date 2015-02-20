@@ -15,9 +15,11 @@ You will need java installed to run cegxQC available at [www.java.com](http://ww
 
 ### Mac/Windows ###
 Double-click the zip file
+
 Change into the directory created by unpacking the zip file
 
 Mac: Double-click the `cegxqc` file
+
 Windows: Double-click the `run_cegxqc.bat` file
 
 Note: On Macs you will need to update the security settings to allow the installation of software from a 3rd Party. This can be done in System Preferences / Security.
@@ -25,8 +27,11 @@ Note: On Macs you will need to update the security settings to allow the install
 
 ### Linux ###
 `tar zxvf cegxQC_v0.2.tar.gz`
+
 `cd cegxQC_v0.2`
+
 `./cegxqc`
+
 (Note update the version number according to your download)
 
 
