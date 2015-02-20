@@ -1,53 +1,37 @@
 
 
 
-cegxQC - A spike in conversion and and quality control application for TrueMethyl
----------------------------------------------------------------------------------
+# cegxQC - A spike in conversion and and quality control application for TrueMethyl
+
 
 cegxQC is designed to provide an assessment of the conversion of the spike in controls provided with the CEGX TrueMethyl kits as well as provide more general quality control.
 
-cegxQC is an extended version of FastQC
+cegxQC is an extended version of [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc)
+
+The cegxQC [user documentation](https://bitbucket.org/cegx-bfx/cegxqc/downloads/cegx-qc-manual.pdf) contains detailed instructions for installation and usage
+
+## Installation
+The [binary distribution](https://bitbucket.org/cegx-bfx/cegxqc/downloads) is available as a zip file (Mac/Windows) or as a tar.gx (Linux)
+
+### Requirements
+You will need java installed to run cegxQC available at [www.java.com](http://www.java.com)
+
+###Mac/Windows
+Double-click the zip file
+Change into the directory created by unpacking the zip file
+
+Mac: Double-click the cegxqc file
+Windows: Double-click the run_cegxqc.bat file
+
+Note: On Macs you will need to update the security settings to allow the installation of software from a 3rd Party. This can be done in System Preferences / Security.
 
 
-FastQC - A Quality Control application for FastQ files
-------------------------------------------------------
+###Linux
+`tar zxvf cegxQC_v0.2.tar.gz`
+`cd cegxQC_v0.2`
+`./cegxqc`
+(Note update the version number according to your download)
 
-Most high throughput sequencers generate output in FastQ format.  This
-format combines the base calls for the sequence which was generated with
-an encoded quality value for each base which says how confident the
-sequencer was that the base call generated was correct.
 
-Before proceeding with the analysis of a sequence data set it is
-a good idea to do some basic quality control checks on the raw data
-to ensure that there are no hidden problems which might be more
-difficult to detect at a later stage.
-
-FastQC is an application which takes a FastQ file and runs a series
-of tests on it to generate a comprehensive QC report.  This will
-tell you if there is anything unusual about your sequence.  Each
-test is flagged as a pass, warning or fail depending on how far it
-departs from what you'd expect from a normal large dataset with no
-significant biases.  It's important to stress that warnings or even
-failures do not necessarily mean that there is a problem with your
-data, only that it is unusual.  It is possible that the biological
-nature of your sample means that you would expect this particular
-bias in your results.
-
-FastQC can be run either as an interactive graphical application 
-which allows you to view results for multiple files in a single
-application.  Alternatively you can run the program in a non
-interactive way (say as part of a pipeline) which will generate
-an HTML report for each file you process.
-
-FastQC is a cross-platform application, written in java.  In theory it
-should run on any platform which has a suitable java runtime environment.
-Having said that we've only tested in on Windows, MacOSX 10.6 and Linux
-running the Sun v1.5 and 1.6 JREs.  Please let us know what happened if
-you try running it on other platforms / JREs.
-
-If you have any comments about FastQC we would like to hear them.  You
-can either enter them in our bug tracking system at:
-
-http://www.bioinformatics.bbsrc.ac.uk/bugzilla/
-
-..or send them directly to simon.andrews@bbsrc.ac.uk.
+## Comments / Issues
+If you have any comments or issues in relation to cegxQC please use the [issue tracking system](https://bitbucket.org/cegx-bfx/cegxqc/issues) or email technical@cegx.co.uk
